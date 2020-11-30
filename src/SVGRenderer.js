@@ -24,11 +24,14 @@ class SVGRenderer extends Component {
     let {background, objects, svgStyle, canvas,
          onMouseDown, onRender} = this.props;
     let {width, height, canvasOffsetX, canvasOffsetY} = canvas;
-
+      console.log('background', background)
     let style = {
-      ...styles.canvas,
       ...background ? {
-        backgroundColor: background
+        backgroundRepeat: background.backgroundRepeat,
+        backgroundAttachment: background.backgroundAttachment,
+        backgroundPosition: background.backgroundPosition,
+        backgroundImage: background.backgroundImage,
+        backgroundColor: background.backgroundColor
       }: styles.grid,
       ...{
         ...svgStyle,

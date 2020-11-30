@@ -73,7 +73,7 @@ const styles = {
   insertMenu: {
     height: 40,
     width: 40,
-    overflow: 'hidden',
+    //overflow: 'hidden',
   },
   insertMenuHover: {
     background: '#eeeff5',
