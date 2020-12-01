@@ -50,8 +50,10 @@
   },
   "peerDependencies": {},
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "classnames": "^2.2.6",
     "lodash": ">=4.17.11",
+    "react-bootstrap": "^1.4.0",
     "react-color": "^2.17.3",
     "react-hotkeys": "^1.1.4",
     "react-portal": "^4.2.0",
